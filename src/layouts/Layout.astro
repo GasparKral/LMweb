@@ -1,0 +1,107 @@
+---
+interface Props {
+    title: string;
+    description?: string;
+    keywords?: string;
+}
+
+const currentPage = Astro.url.pathname.split('/').pop();
+
+const { title, description, keywords } = Astro.props;
+---
+
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8' />
+        <meta
+            name='description'
+            content={description}
+        />
+        <meta
+            name='viewport'
+            content='width=device-width'
+        />
+        <meta
+            name='keywords'
+            content={keywords}
+        />
+        <link
+            rel='icon'
+            type='image/svg+xml'
+            href='/favicon.svg'
+        />
+        <meta
+            name='generator'
+            content={Astro.generator}
+        />
+        <meta
+            name='author'
+            content='Gaspar Gómez Kral'
+        />
+        <title>{title}</title>
+    </head>
+    <body>
+        <nav class='w-full flex justify-end px-8 py-4 bg-neutral-800'>
+            <menu class='flex text-2xl font-bold gap-4 font-markdis'>
+                <li
+                    class:list={[
+                        'hover:text-violet-500 duration-200 transition-colors',
+                        currentPage === ''
+                            ? ' text-violet-500'
+                            : 'text-neutral-50',
+                    ]}
+                >
+                    <a href='./'>HTML</a>
+                </li>
+                <li
+                    class:list={[
+                        'hover:text-violet-500 duration-200 transition-colors',
+                        currentPage === 'css'
+                            ? ' text-violet-500'
+                            : 'text-neutral-50',
+                    ]}
+                >
+                    <a href='./css'>CSS</a>
+                </li>
+                <li
+                    class:list={[
+                        'hover:text-violet-500 duration-200 transition-colors',
+                        currentPage === 'diseno'
+                            ? ' text-violet-500'
+                            : 'text-neutral-50',
+                    ]}
+                >
+                    <a href='./diseno'>Diseño</a>
+                </li>
+                <li
+                    class:list={[
+                        'hover:text-violet-500 duration-200 transition-colors',
+                        currentPage === 'involucrados'
+                            ? ' text-violet-500'
+                            : 'text-neutral-50',
+                    ]}
+                >
+                    <a href='./involucrados'>Involucrados</a>
+                </li>
+            </menu>
+        </nav>
+        <main>
+            <slot />
+        </main>
+    </body>
+</html>
+
+<style>
+    body {
+        font-family: Rubik, sans-serif;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: markdisc, sans-serif;
+    }
+</style>

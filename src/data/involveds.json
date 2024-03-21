@@ -1,0 +1,211 @@
+[
+    {
+        "name": "Gaspar Gómez Kral",
+        "description": "Si no eres capaz de hacer algo grande de lo pequeño, no hagas nada",
+        "img": "../Img/Gaspar.jpeg",
+        "socials": [
+            {
+                "platform": "discord",
+                "link": "https://discord.com/users/336089542752993280"
+            },
+            {
+                "platform": "instagram",
+                "link": "https://www.instagram.com/gkdesigner_programer"
+            },
+            {
+                "platform": "twitter",
+                "link": "https://twitter.com/GasparG89274398"
+            },
+            {
+                "platform": "linkedin",
+                "link": "https://www.linkedin.com/in/gaspar-gómez-kral-533408270"
+            },
+            {
+                "platform": "github",
+                "link": "https://github.com/GasparKral"
+            }
+        ],
+        "portfolio": "https://G2Kral.com",
+        "websites": [
+            {
+                "wName": "colorPalet",
+                "wLink": "https://colorpalet.com",
+                "wDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+            },
+            {
+                "wName": "test1",
+                "wLink": "https://test1.com",
+                "wDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+            }
+        ]
+    },
+    {
+        "name": "Juan Colilla Barragán",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Juan.jpeg",
+        "socials": [
+            {
+                "platform": "discord",
+                "link": "https://discord.com/users/751478783353290882"
+            },
+            {
+                "platform": "instagram",
+                "link": "https://www.instagram.com/Juancolilla_/"
+            },
+            {
+                "platform": "twitter",
+                "link": "https://x.com/x_kolos?s=20"
+            }
+        ]
+    },
+    {
+        "name": "Ismael Ouaghmari Blázquez",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Ricardo Triviño",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Liang Zing",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Antonio Nieto Sánchez",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Isabel",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Natalia",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Dario Casado Chamizo",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": {
+            "instagram": "https://www.instagram.com/dario_casado_14/",
+            "twitter": "https://twitter.com/itsDario14"
+        }
+    },
+    {
+        "name": "Ismael",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Carlos Ruiz Haba",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "David",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Julian Martín Serradilla",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": [
+            {
+                "platform": "twitter",
+                "link": "https://twitter.com/ficuwusin?lang=es/"
+            },
+            {
+                "platform": "tiktok",
+                "link": "https://www.tiktok.com/@ficusmatador"
+            }
+        ]
+    },
+    {
+        "name": "Alejandro Dasilva",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Alejandro",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Antonio",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Juan",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Gonzalo",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Jose Luis Pozo",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Pedro Leal",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Raúl",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Santiago",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Sergio 1 ",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Sergio 2 ",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    },
+    {
+        "name": "Sergio 3",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "img": "../Img/Fill.png",
+        "media": []
+    }
+]
