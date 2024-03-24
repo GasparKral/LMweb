@@ -1,7 +1,47 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { summaryData } from '@data/sumaryData';
+const inf = summaryData;
 ---
 
-<Layout title='CSS'>
-    <h1>CSS</h1>
+<Layout
+    title='CSS'
+    style='gap-16'
+>
+    <h1 class='text-8xl font-bold text-acent font-open'>CSS</h1>
+    <section class='flex flex-col gap-4'>
+        <header>
+            <h2 class='text-6xl font-bold text-acent underline'>Propiedades</h2>
+        </header>
+        <p class='text-lg'>Texto de prueba.</p>
+    </section>
+    <section class='flex flex-col gap-4'>
+        <header>
+            <h2 class='text-6xl font-bold text-acent underline'>
+                {inf.articleTitle3}
+            </h2>
+        </header>
+        <p class='text-lg'>{inf.text5}</p>
+        <p class='text-lg'>{inf.text7}</p>
+    </section>
+    <section class='flex flex-col gap-4'>
+        <header>
+            <h2 class='text-6xl font-bold text-acent underline'>
+                {inf.articleTitle4}
+            </h2>
+        </header>
+        <p class='text-lg'>{inf.text8}</p>
+        <p class='text-lg font-bold'>{inf.subText1}</p>
+        <p class='text-lg font-bold'>{inf.subText2}</p>
+        <p class='text-lg font-bold'>{inf.subText3}</p>
+        <p class='text-lg font-bold'>{inf.subText4}</p>
+    </section>
+    <section class='flex flex-col gap-4'>
+        <header>
+            <h2 class='text-6xl font-bold text-acent underline'>
+                Preprocesadores de CSS
+            </h2>
+        </header>
+        <p class='text-lg'>Texto de prueba.</p>
+    </section>
 </Layout>

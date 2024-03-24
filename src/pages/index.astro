@@ -1,5 +1,112 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { summaryData } from '@data/sumaryData';
+const inf = summaryData;
 ---
 
-<Layout title='Welcome to Astro.' />
+<Layout
+    title='Lenguaje de Marcas'
+    style='gap-16 max-w-7xl'
+>
+    <section class='flex flex-col gap-8'>
+        <header class='space-y-4'>
+            <h1 class='text-8xl font-bold text-acent font-open'>
+                {inf.principalTitle}
+            </h1>
+            <p class='text-2xl'>{inf.sume}</p>
+        </header>
+
+        <article class='flex flex-col gap-4'>
+            <h2 class='text-6xl font-bold text-acent underline'>
+                {inf.articleTitle1}
+            </h2>
+            <p>{inf.text1}</p>
+            <p>{inf.text2}</p>
+            <p>{inf.text3}</p>
+        </article>
+    </section>
+    <section class='flex flex-col gap-8'>
+        <article class='flex flex-col gap-4'>
+            <h2 class='text-6xl font-bold text-acent underline'>
+                {inf.articleTitle2}
+            </h2>
+            <p>{inf.text4}</p>
+        </article>
+        <article class='grid grid-cols-4 gap-8'>
+            <h3 class='col-span-2 text-3xl text-acent text-center'>
+                {inf.labelName1}
+            </h3>
+            <h3 class='col-span-2 text-3xl text-acent text-center'>
+                {inf.labelName2}
+            </h3>
+            <ul>
+                {
+                    inf.labelList1
+                        .toSpliced(0, inf.labelList1.length / 2)
+                        .map((label) => (
+                            <li>
+                                {
+                                    <span class='text-acent'>
+                                        {label.split(':')[0]}
+                                    </span>
+                                }
+                                :{<span>{label.split(':')[1]}</span>}
+                            </li>
+                        ))
+                }
+            </ul>
+            <ul>
+                {
+                    inf.labelList1
+                        .toSpliced(inf.labelList1.length / 2)
+                        .map((label) => (
+                            <li>
+                                {' '}
+                                {
+                                    <span class='text-acent'>
+                                        {label.split(':')[0]}
+                                    </span>
+                                }
+                                :{<span>{label.split(':')[1]}</span>}
+                            </li>
+                        ))
+                }
+            </ul>
+
+            <ul>
+                {
+                    inf.labelList2
+                        .toSpliced(0, inf.labelList2.length / 2)
+                        .map((label) => (
+                            <li>
+                                {' '}
+                                {
+                                    <span class='text-acent'>
+                                        {label.split(':')[0]}
+                                    </span>
+                                }
+                                :{<span>{label.split(':')[1]}</span>}
+                            </li>
+                        ))
+                }
+            </ul>
+            <ul>
+                {
+                    inf.labelList2
+                        .toSpliced(inf.labelList2.length / 2)
+                        .map((label) => (
+                            <li>
+                                {' '}
+                                {
+                                    <span class='text-acent'>
+                                        {label.split(':')[0]}
+                                    </span>
+                                }
+                                :{<span>{label.split(':')[1]}</span>}
+                            </li>
+                        ))
+                }
+            </ul>
+        </article>
+    </section>
+</Layout>

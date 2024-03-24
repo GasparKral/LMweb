@@ -5,7 +5,10 @@ export default {
         extend: {
             fontFamily: {
                 rubik: ['Rubik', 'sans-serif'],
-                markdisc: ['MarkDisc', 'sans-serif'],
+                open: ['Open Sans', 'sans-serif'],
+            },
+            colors: {
+                acent: '#6366f1',
             },
         },
     },
